@@ -2,11 +2,11 @@
 {
     public class Circle : IShape
     {
-        int Radius { get; }
+        double Radius { get; }
 
-        public Circle(int radius)
+        public Circle(double radius)
         {
-            if (radius <= 0) throw new Exception("Радиус не может быть отрицательным ил равным нулю");
+            if (radius <= 0) throw new Exception("Радиус не может быть отрицательным или равным нулю");
             Radius = radius;
         }
 

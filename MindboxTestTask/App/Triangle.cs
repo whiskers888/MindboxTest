@@ -13,8 +13,7 @@
         public double CalculateArea()
         {
             double p = (A + B + C) / 2;
-            double area = Math.Sqrt(p * (p - A) * (p - B) * (p - C));
-            return area;
+            return Math.Sqrt(p * (p - A) * (p - B) * (p - C));
         }
 
         public bool IsRectangularTriangle()
